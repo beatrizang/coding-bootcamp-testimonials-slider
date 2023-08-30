@@ -49,15 +49,21 @@ body{
 
 .box{
     align-items: center;
-    background: w;
     display: flex;
 }
 
 .box__left{
+    align-items: flex-start;
+    background: white;
+    display: flex;
+    flex-direction: column;
     background-image: url('../../images/pattern-quotes.svg');
     background-repeat: no-repeat;
-    background-position: 50% 0%;
+    background-position: 50% 20%;
     z-index: 3;
+    padding: 2rem 0;
+    height: 330px;
+    justify-content: center;
     width: 90%;
 }
 
@@ -69,6 +75,7 @@ body{
 
 .box__author{
     display: flex;
+    padding-top: 2rem;
 }
 
 .box__name{
@@ -128,5 +135,3 @@ body{
     display: flex;
     justify-content: center;
 }
-
-
